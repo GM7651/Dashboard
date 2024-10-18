@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { db } from '../firebase'; // Adjust to your firebase config path
+import { db } from './firebase'; // If firebase.js is in the same directory
 import { collection, getDocs, updateDoc, doc } from 'firebase/firestore';
 
 export default function ShineCity() {
